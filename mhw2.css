@@ -1,0 +1,647 @@
+body{
+    background-image:url("https://www.pianetahobby.it/img/layout/body-gradient.jpg");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #ContLogoEBarra{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: fixed;
+  }
+  
+  #LogoSito{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+  }
+  
+   #Logo1{
+     width: 180%;
+     height: 70%;
+   }
+    
+    #Menuinfo{
+      width: 82%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #BarraRicerca{
+      width: 100%;
+      height: 50%;
+      background-image: url("https://www.pianetahobby.it/img/layout/menu-primary.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .infoBarra{
+      color: white;
+      font-size: 13px;
+      margin-left: 20px;
+    }
+  
+    #ContBarraInfoBarraAccesso{
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    #BarraInfo{
+      width: 98%;
+      height: 40%;
+      background-image: url("https://www.pianetahobby.it/img/layout/menu-secondary.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      margin-top: -1px;
+  }
+  
+   .infoBarra1{
+     font-size: 12px;
+     margin-left: 30px;
+   }
+    
+    #BarraAccesso{
+      width: 17%;
+      height: 52%;
+      background-image: url("https://www.pianetahobby.it/img/layout/auth-bg.png");
+      background-repeat:no-repeat;
+      background-size: cover;
+      text-align: center;
+      margin-left: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+  #BarraAccesso div{
+    color: white;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+  }
+  
+  #ImmagineCentrale{
+    width: 85%;
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Decorazioni{
+    width: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+  }
+  
+  #ContImg{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  #ContImg img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  #imgtl{
+    position: relative;
+    bottom: 6px;
+    right: 6px;
+  }
+  
+   #imgbl{
+    position: relative;
+    top: 9px;
+    right: 6px;
+   }
+  
+   #imgtr{
+    position: relative;
+    bottom: 6px;
+    right: 61px;
+   }
+  
+   #imgbr{
+    position: relative;
+    top: 9px;
+    right: 61px;
+   }  
+  
+   #ContenitoreCentrale{
+    width: 80%;
+    height: 2850px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+  
+  #Contenitore1 {
+    width: 23%;
+    height: 87%;
+    background-color: grey; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #RicercaAvanzata{
+    width: 100%;
+    height: 8%;
+    background-color: darkblue;
+  }
+  
+  #contSecond{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .barra{
+    display: flex;
+    flex-direction: column;
+    align-items: end
+  }
+  
+  input{
+    width: 90%;
+  }
+  
+  #RicercaAvanzata #scritta1{
+    font-size: 14px;
+    color: white;
+    border-top: 10px;
+  }
+  
+  #RicercaAvanzata p{
+    width: 50%;
+    color: white;
+    font-size: 10px;
+  }
+  
+  #Categorie{
+    width: 100%;
+    height: 78%;
+    background-color: lightgrey;
+  }
+  
+  #NoiAcquistiamo{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #titoloAcquist{
+    width: 100%;
+    height: 27%;
+    background-image: url("https://www.pianetahobby.it/img/layout/navmenu-02-top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #testoCentrale{
+    height: 43%;
+    width: 100%;
+    font-size: 19px;
+    text-align: center;
+    background-image: url("https://www.pianetahobby.it/img/layout/navmenu-02-middle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #barrareaacquist{
+    widtH: 100%;
+    height: 25%;
+    background-image: url("https://www.pianetahobby.it/img/layout/navmenu-02-bottom.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -4px;
+  }
+  
+  #barragialla{
+    margin-top: -40px;
+  }
+  
+  #barrareaacquist p{
+    margin-top: -27px;
+    color: white;
+    font-size: 13px;
+  }
+  
+  #Contenitore2{
+    width: 52%;
+    height: 95%;
+  }
+
+  #Cont2Nuovo{
+    width: 50%;
+    height: 90%;
+    background-color: black;
+  }
+  
+  .vetrina{
+    height: 3%;
+    width: 100%;
+    background-image: url("https://www.pianetahobby.it/img/layout/separate-title.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .vetrina div{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+  }
+  
+  #ContenitoreProdotti{
+      width: 100%;
+      height: 95%;
+      display: flex;
+      flex-direction:column;
+      justify-content:space-between;
+      margin-top: 10px;
+  }
+
+  #ContProdotti2{
+     width: 100%;
+      height: 95%;
+      display: flex;
+      flex-direction:column;
+      justify-content:space-between;
+      margin-top: 10px;
+   }
+
+  .ContenitoreAusiliario{
+      width: 100%;
+      height: 24.75%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
+  .contenuto{
+    width: 49%;
+    height: 100%;
+    background-image: url("https://www.pianetahobby.it/img/layout/body-pattern.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hidden{
+    display: none;
+  }
+
+  .imgprodotto{
+    width: 95%;
+    height: 50%;
+    margin-top: 10px;
+  }
+  
+  .SchedaProdotto{
+    width: 95%;
+    height: 30%;
+    display: flex;
+  }
+  
+  .codiceProdotto{
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  
+  .NomeProdotto{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .descrProdotto{
+    font-size: 14px;
+    width: 75%;
+    margin-top: 5px;
+  }
+  
+  .costoProdotto{
+    width: 100%;
+    height: 55%;
+    background-image: url("https://www.pianetahobby.it/img/layout/price.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  
+  .costoProdotto p{
+    font-size: 20px;
+    color: white;
+  }
+  
+  .abc{
+    width: 100%;
+    height: 13%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .aggiuncarrello{
+    height: 49%;
+    width: 90%;
+    background-image: url("https://www.pianetahobby.it/img/layout/btn-cart.jpg");
+    background-size: cover;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .schedaprodotto{
+    height: 49%;
+    width: 90%;
+    background-image: url("https://www.pianetahobby.it/img/layout/btn-info.jpg");
+    background-size: cover;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .aggiuncarrello p, .schedaprodotto p{
+    color: white;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  
+  #Contenitore3{
+    width: 23%;
+    height: 2850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #spedizione{
+    height: 10%;
+    width: 280px;
+    background-image: url("https://www.pianetahobby.it/img/layout/box-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #contSped{
+    width: 94%;
+    height: 94%;
+    background-image: url("https://www.pianetahobby.it/img/layout/promo-bg.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #titolosped{
+    width: 90%;
+    background-image:url("https://www.pianetahobby.it/img/layout/separate-title-small-hl.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+  }
+  
+  #titolosped p{
+    color: white;
+    font-size: 12px;
+    margin-top: 7px;
+  }
+  
+  #scrittasped{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #social{
+    background-image:url("https://www.pianetahobby.it/img/layout/box-bg.jpg");
+    height: 3%;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+   #social .img3{
+     height: 70%;
+     width: 17%;
+     margin: 6px 0px 6px 4px;
+   }
+  
+  #utenti{
+    width: 280px;
+    height: 2%;
+    background-image:url("https://www.pianetahobby.it/img/layout/box-bg.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contutenti{
+    font-size: 10px;
+    margin: 20px;
+  }
+  
+  #imgPromozione{
+    width: 100%;
+    height: 100%;
+  }
+  
+  #promo{
+    height: 10%;
+    width: 280px;
+    background-image: url("https://www.pianetahobby.it/img/layout/box-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #contPromo{
+    width: 94%;
+    height: 94%;
+    background-image: url("https://www.pianetahobby.it/img/layout/promo-bg.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #titoloPromo{
+    width: 90%;
+    height: 11%;
+    background-image:url("https://www.pianetahobby.it/img/layout/separate-title-small-hl.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    margin-top: 5px;
+  
+  }
+  
+  #titoloPromo p{
+    color: white;
+    font-size: 13px;
+    margin-top: 6px;
+  }
+  
+  #promo2{
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #notizie{
+    width: 100%;
+    height: 64%;
+    background-image: url("https://www.pianetahobby.it/img/layout/box-bg.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #titolonews{
+    height: 2%;
+    width: 100%;
+    background-image: url("https://www.pianetahobby.it/img/layout/separate-title-small.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+  }
+  
+  #titolonews p{
+    color: white;
+    margin-top: 8px;
+  }
+  
+  .notizia{
+    height: 12%;
+    width: 100%;
+    background-color: darkgrey;
+    display: flex;
+  }
+  
+  #Eventi{
+    width: 100%;
+    height: 350px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #ContenitoreEventi {
+    width: 100%;
+    height: 80%;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .InfoEventi{
+    width: 40%;
+    height: 100%;
+    background-color: purple;
+    margin-right: 5px;
+  }
+  
+  footer {
+    width: 100vw;
+    height: 200px;
+    background-image: url("https://www.pianetahobby.it/img/layout/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .elemfooter{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #elem1{
+    height: 20%;
+  }
+  
+  #elem1 strong{
+    margin-top: 15px;
+  }
+  
+  #elem2{
+    height: 75%;
+  }
+  
+  #elem1 strong, #elem2 div{
+    width: 20%;
+    color: white;
+    font-size: 13px;
+  }
+  
+  #elem2 .infoelemfooter .img3{
+    width: 18%;
+  }
+  
+  #LogoFooter{
+    width: 8%;
+    height: 80%;
+    margin-right: 117px;
+    margin-top: 5px;;
+  }
+  
+  #PH{
+    font-size: 18px;
+  }
